@@ -1,0 +1,9 @@
+.main1{
+    font-size: large;
+    font-weight: bold;
+    margin-left: 4%;
+    margin-top: 1%;
+    border: 2px solid rgb(180, 138, 20);
+    max-width: max-content;
+    padding: 5px; 
+}

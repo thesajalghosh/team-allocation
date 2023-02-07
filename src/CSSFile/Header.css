@@ -1,0 +1,21 @@
+.main{
+    background-color: blue;
+    color: azure;
+    font-size: 22px;
+    padding: 6px;
+   
+}
+.item{
+    margin-left: 2%;
+    display: flex;
+    gap: 22px;
+    text-decoration: none;
+}
+.item1{
+    text-decoration: none;
+   color: aliceblue;
+}
+.item2{
+    text-decoration: none;
+    color: aliceblue;
+}
