@@ -3,33 +3,31 @@ import './CSSFile/GroupTeamMember.css'
 
 const GroupTeamMember = ({ employees, selectedTeam, setTeam }) => {
 
-  const [groupedEmployees, setGroupData] = useState(groupTeamMember());
+ 
   var teamAMembersA
   var teamBMembersB
   var teamCMembersC
   var teamDMembersD
 
-  function groupTeamMember() {
-    var teams = [];
+  
 
      teamAMembersA = employees.filter((employee) => employee.teamName === 'TeamA');
-    var teamA = { team: 'TeamA', member: 'teamAMember', collapsed: selectedTeam === 'TeamA' ? true : false };
-    teams.push(teamA);
+    
+    
 
      teamBMembersB = employees.filter((employee) => employee.teamName === 'TeamB');
-    var teamB = { team: 'TeamB', member: 'teamBMember', collapsed: selectedTeam === 'TeamB' ? true : false };
-    teams.push(teamB);
+   
+   
 
      teamCMembersC = employees.filter((employee) => employee.teamName === 'TeamC');
-    var teamC = { team: 'TeamC', member: 'teamCMember', collapsed: selectedTeam === 'TeamC' ? true : false };
-    teams.push(teamC);
+    
+    
 
      teamDMembersD = employees.filter((employee) => employee.teamName === 'TeamD');
-    var teamD = { team: 'TeamD', member: 'teamDMember', collapsed: selectedTeam === 'TeamD' ? true : false };
-    teams.push(teamD);
+    
+    
 
-    return teams;
-  }
+   
   // console.log("sajla")
 
   // console.log(teamAMembersA);
