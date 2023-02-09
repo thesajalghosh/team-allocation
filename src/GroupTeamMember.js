@@ -32,7 +32,7 @@ const GroupTeamMember = ({ employees, selectedTeam, setTeam }) => {
   }
   // console.log("sajla")
 
-  console.log(teamAMembersA);
+  // console.log(teamAMembersA);
 
   const [isCollapsedA, setIsCollapsedA] = useState(true);
   const [isCollapsedB, setIsCollapsedB] = useState(true);
