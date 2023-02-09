@@ -4,6 +4,7 @@ import Header from './Header';
 import Employees from './Employees';
 import Footer from './Footer';
 import TeamNumber from './TeamNumber';
+import NoFound from './NoFound';
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 import GroupTeamMember from './GroupTeamMember';
 
@@ -102,7 +103,8 @@ function App() {
                             handelTeamSelectChange={handelTeamSelectChange}
                             handelEmployeeCardClick={handelEmployeeCardClick}
                         />}></Route>
-                    <Route path="/GroupTeamMember" element={<GroupTeamMember/>}></Route>
+                    <Route path="/GroupTeamMember" element={<GroupTeamMember employees= {employees} selectedTeam={selectedTeam} setTeam={setTeam }/>}></Route>
+                    <Route path="*" element={<NoFound />}></Route>
 
 
 

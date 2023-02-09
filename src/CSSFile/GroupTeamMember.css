@@ -1,0 +1,13 @@
+.buttondiv{
+/* margin: 100%; */
+width: 700px;
+}
+.innerdata{
+    border: 2px solid rgb(29, 26, 26);
+    margin: 1%;
+    padding: 1%;
+}
+.outerdata{
+    border: 2px solid rgb(167, 223, 93);
+    margin: 1%;
+}
